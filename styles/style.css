@@ -1,0 +1,76 @@
+/* fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+/* common styles */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* top portion styles */
+
+.container{
+    display: flex;
+    justify-content: center;
+    background-color: #2D25A0;
+    margin-bottom: 70px;
+}
+.copa-america h1{
+    width: 485px;
+    height: 230px;
+    font-size: 64px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-top: 207px;
+    margin-left: 156px;
+    
+}
+.button-link{
+    width: 88px;
+    height: 24px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-decoration: none;
+    border: 1px solid whitesmoke;
+    padding: 10px 20px;
+    background: #E02C6D;
+    margin-left: 156px;
+    margin-bottom: 169px;
+}
+.banner img{
+    width: 556.01px;
+    height: 438px;
+    margin-top: 135px;
+    margin-bottom: 86px;
+    margin-left: 102px;
+    margin-right: 141px;
+}
+
+/* all player styles */
+.all-player{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 27px;
+    margin-left: 180px;
+    margin-right: 210px;
+}
+.player-img{
+    width: 300px;
+    height: 256px;
+}
+.player-title{
+    color: #18191F;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.logos .logo img{
+    width: 483.87px;
+    height: 110px;
+}
+/* footer styles */
+.footer-style{
+    display: grid;
+    grid-template-columns: repeat(1, fr);
+    justify-content: center;
+}
